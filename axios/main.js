@@ -58,6 +58,7 @@ function removeTodo() {
     .catch(err => console.error(err));
 }
 
+
 // SIMULTANEOUS DATA
 function getData() {
   axios.all([
